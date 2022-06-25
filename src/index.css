@@ -1,0 +1,1302 @@
+ body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+  background-color: blueviolet;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.navbar-nav{
+  display: flex;
+  background-color: blueviolet;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  
+}
+.navlogin{
+  border: 2px inset crimson;
+ background-color: blueviolet;
+ color: black;
+ width: 80px;
+ height: 60px;
+ background-color: white;
+ border-radius: 20px;
+}
+.navstarted{
+  background-color: blueviolet;
+  color: white;
+  border-radius: 100px;
+}
+.div1{
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  height: 410px;
+  margin-top: 61px;
+}
+.imgs{
+  margin: 5px;
+  margin-top: 20px;
+  position: relative;
+  right: 15px;
+  padding-bottom: 30px;
+}
+.circle1{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 140px;
+  right: 15%;
+  box-shadow: 0px 2px 3px #26093A;
+  border: 30px solid aqua;
+  opacity: 0.25;
+  filter: blur(0px);
+  margin-left: 320px;
+  display: inline-block;
+}
+.circle2{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 180px;
+  right: 5%;
+  box-shadow: 0px 2px 3px #26093A;
+  border: 30px solid aqua;
+  opacity: 0.25;
+  filter: blur(0px);
+  margin-left: 320px;
+  display: inline-block;
+}
+.btn1{
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.h4a{
+  margin-top: 50px;
+}
+.allinfo{
+  color: black;
+  display: inline;
+  list-style-type: none;
+  padding: 2px;
+}
+.men{
+  display: flex;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.allinfo-id{
+  border: 0.5px solid #707070;
+  width: 103%;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  background-color: white;
+  padding: 15px 0px;
+  position: relative;
+  right: 5px;
+  bottom: 42px; 
+}
+.h4a{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+  }
+.conts{
+    margin-top: 70px;
+    text-align: center;
+    display: inline;
+  }
+  .ease{
+     box-shadow: 0 0 20px 0 grey;
+     color: black;
+     width: 320px;
+  }
+  .financial{
+    box-shadow: 0 0 20px 0 grey;
+    color: black;
+    width: 320px;
+  }
+  .investment{
+    box-shadow: 0 0 20px 0 grey;
+    color: black;
+    width: 320px;
+  }
+  .ease img{
+    width: 150px;
+  }
+  .financial img{
+    width: 150px;
+  }
+  .investment img{
+    width: 150px;
+  }
+  .learnmorebtn{
+    width: 200px;
+    border-radius: 5px;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .buynsell>h4{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: black;
+  }
+  .steps{
+    margin-top: 60px;
+  }
+   .one{
+    width: 30px;
+    height: 30px;
+    background: #7c20bf 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    box-shadow: 3px 3px 0px 0px gray;
+    position: relative;
+    bottom: 20px;
+  }
+  .create{
+    padding-left: 50px;
+    position: relative;
+    bottom: 55px;  
+    color: black;
+  } 
+   .gyrate1img{
+     width: 100px;
+     position: relative;
+     top: 160px;
+     right: 15px;
+   }
+    .two{
+    width: 30px;
+    height: 30px;
+    background: #7c20bf 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    box-shadow: 3px 3px 0px 0px gray;
+    position: relative;
+    top: 35px;
+    right:  50px;
+  } 
+   .depoimg{
+     position: relative;
+     top: 120px;
+     width: 100px ;
+   }
+  .depo{
+   position: relative;
+   left: 35px;
+   bottom: 20px;
+   color: black;
+ } 
+ .gyrate3{
+   position: relative;
+   left: 10px;
+   color: black;
+ }
+ .three{
+  width: 30px;
+  height: 30px;
+  background: #7c20bf 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  color: white;
+  text-align: center;
+  box-shadow: 3px 3px 0px 0px gray;
+  position: relative;
+  top: 60px;
+  right: 10px;
+} 
+.Buy{
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+.buyimg{
+  width: 100px;
+  position: relative;
+  left: 30px;
+  top: 180px;
+}
+.ready{
+  text-align: center;
+  color: black;
+  margin-top: 120px;
+  font-weight: bolder;
+}
+.redybtn{
+  width: 200px;
+  border-radius: 4px;
+  background-color: #7c20bf;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.redymga{
+  background-color: crimson;
+  border-radius: 5px;
+}
+.redymgb{
+  background-color: dodgerblue;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+.cust{
+  padding-top: 30px;
+}
+.review{
+  margin-top: 100px;
+  color: black;
+  text-align: center;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+ .revs{
+  display: inline;
+  width: 320px;
+} 
+.reva{
+  margin-top: 30px;
+  width: 270px;
+  position: relative;
+  right: 20px;
+}
+.k1{
+  position: relative;
+  bottom: 150px;
+  color: white;
+  right: 15px;
+  line-height: 20px;
+  width: 250px;
+}
+.r1{
+  position: relative;
+  bottom: 155px;
+}
+.rid1{
+  width: 50px;
+  position: relative;
+  bottom: 110px;
+  right: 10px;
+} 
+.ireti{
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  bottom: 160px;
+}
+.revb{
+  width: 270px;
+  position: relative;
+  right: 20px;
+  bottom: 60px;
+}
+.k2{
+  position: relative;
+  bottom: 200px;
+  color: white;
+  right: 8px;
+  line-height: 20px;
+  width: 250px;
+}
+.r2{
+  position: relative;
+  bottom: 210px;
+}
+.rid2{
+  width: 50px;
+  position: relative;
+  bottom: 130px;
+  right: 10px;
+} 
+.bayo{
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  bottom: 180px;
+}
+ .revc{
+  margin-top: 30px;
+  width: 270px;
+  position: relative;
+  right: 20px;
+  bottom: 100px;
+}
+.k3{
+  position: relative;
+  bottom: 255px;
+  color: white;
+  right: 8px;
+  line-height: 20px;
+  width: 250px;
+}
+.r3{
+  position: relative;
+  bottom: 255px;
+} 
+.rid3{
+  width: 50px;
+  position: relative;
+  bottom: 190px;
+  right: 10px;
+}
+.goke{
+  font-weight: bold;
+  position: relative;
+  bottom: 240px;
+  left: 55px;
+}
+.foot{
+  margin-top: 20px;
+  position: relative;
+  width: 20px;
+  color: black;
+  right: 155px;
+}
+.footcont{
+  position: relative;
+  right: 50px;
+  left:1px;
+  color: black;
+}
+.company{
+  position: relative;
+  left: 2px;
+}
+.legal{
+  position: relative;
+  bottom: 10px;
+}
+.c{
+  margin-top: 30px;
+  width: 310px;
+  text-align: center;
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+}
+.buyandsell{
+  border: 1px solid black;
+  width: 250px;
+  height: 460px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0px 2px 3px #000000;
+  position: relative;
+  top: 287px;
+  left: 8px; 
+}
+.buyh4{
+  text-align: center;
+  margin-top: 20px;
+}
+.buybtn{
+text-align: center; 
+}
+.buy1{
+  border-radius: 50px;
+  width: 80px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.buy2{
+  border-radius: 50px;
+  width: 80px;
+  padding: 5px;
+  padding: 5px;
+}
+.coin{
+  position: relative;
+  left: 20px;
+  margin: 30px;
+}
+.form1{
+  width: 150px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 3px;
+}
+.form2{
+  width: 150px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 3px;
+}
+.form3{
+  width: 150px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 3px;
+}
+.continue{
+  display: flex;
+  margin: auto;
+  width: 150px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  color: white;
+}
+.sell{
+  border: 1px solid black;
+  width: 250px;
+  height: 460px;
+  background: blueviolet 0% 0% no-repeat padding-box;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 0px 2px 3px #000000;
+  position: relative;
+  top: 287px;
+  left: 8px;
+}
+.sell1{
+  border-radius: 50px;
+  width: 80px;
+  padding: 5px;
+}
+.sell2{
+  border-radius: 50px;
+  width: 80px;
+  padding: 5px;
+}
+.sellh4{
+  text-align: center;
+  margin-top: 20px;
+}
+.sellbtn{
+  text-align: center;
+}
+.login{
+  border: 1px solid black;
+  width: 250px;
+  margin-top: 20px;
+  height: 400px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  position: relative;
+  top: 287px;
+  left: 8px;
+  box-shadow: 0px 2px 3px #000000;
+}
+.user{
+  width: 150px;
+  position: relative;
+  left: 10px;
+  border-radius: 5px;
+}
+.pass{
+  width: 150px;
+  position: relative;
+  left: 35px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.check{
+  position: relative;
+  left: 5px;
+}
+.remember{
+  position: relative ;
+  bottom: 23px;
+  left: 30px;
+}
+.forgot{
+  position: relative;
+  bottom: 50px;
+  left: 100px;
+}
+.logh4{
+  margin-top: 20px;
+}
+.logbtn{
+  width: 150px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+}
+.ysf{
+  border: 1px solid black;
+  width: 300px;
+  line-height: 21px;
+  margin: auto;
+  margin-top: 20px;
+  height: 480px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #000000;
+  position: relative;
+  top: 287px;
+  left: 8px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.learnbtn{
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+}
+.bb{
+  margin-top: 20px;
+}
+a{
+  text-decoration: none;
+  color: darkred;
+}
+.individual{
+  border: 1px solid black;
+  width: 300px;
+  height: 465px;
+  background: #F7F7FA 0% 0% no-repeat padding-box;
+  line-height: 16px;
+  margin-top: 20px;
+  position: relative;
+  top: 287px;
+  box-shadow: 0px 2px 3px #000000;
+}
+.indih4{
+  text-align: center;
+  margin-top: 20px;
+}
+.indibtn{
+  text-align: center;
+}
+.indi1{
+  border-radius: 20px;
+  width: 90px;
+  padding: 5px;
+}
+.indi2{
+  border-radius: 20px;
+  width: 90px;
+  padding: 5px;
+}
+.signup{
+ display: flex;
+ margin: auto;
+ justify-content: center;
+ align-items: center;
+ width: 100px;
+ border-radius: 5px;
+ position: relative;
+}
+.form4{
+  width: 200px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  padding: 3px;
+  margin: -10px;
+}
+.form5{
+  width: 200px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin:-10px;
+  padding: 3px;
+}
+.form6{
+  width: 200px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: -10px;
+  padding: 3px;
+}
+.form7{
+  width: 200px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: -10px;
+  padding: 3px;
+}
+.form8{
+  width: 200px;
+  border-radius: 5px;
+  background: white 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin: -10px;
+  padding: 3px;
+}
+.business{
+  border: 1px solid black;
+  width: 300px;
+  height: 465px;
+  background: blueviolet 0% 0% no-repeat padding-box;
+  position: relative;
+  line-height: 16px;
+  top: 287px;
+  margin-top: 20px;
+  box-shadow: 0px 2px 3px #000000;
+}
+.bush4{
+  text-align: center;
+  margin-top: 20px;
+}
+.busbtn{
+  text-align: center;
+}
+.bus1{
+  border-radius: 20px;
+  width: 90px;
+  padding: 5px;
+}
+.bus2{
+  border-radius: 20px;
+  width: 90px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .allinfo{
+    position: relative;
+    top: 102px;
+    right: 3px;
+  }
+  .ojus{
+    padding-top: 80px;
+  }
+  .conts{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  .gyrate1img{
+    width: 150px;
+    position: absolute;
+    top: 139rem;
+  }
+  .depoimg{
+    width: 150px;
+    position: absolute;
+    right: 310px;
+    top: 155rem;
+  }
+  .buyimg{
+    width: 150px;
+    position: absolute;
+    left: 330px;
+    top: 172rem;
+  }
+  .reva{
+    width: 420px;
+  }
+  .k1{
+    width: 400px;
+    bottom: 190px;
+  }
+  .r1{
+    bottom: 200px;
+  }
+  .rid1{
+    bottom: 90px;
+  }
+  .ireti{
+    bottom: 135px;
+  }
+  .revb{
+    width: 420px;
+  }
+  .k2{
+    width: 400px;
+    bottom: 240px;
+  }
+  .r2{
+    bottom: 250px;
+  }
+  .revc{
+    width: 420px;
+  }
+  .k3{
+    width: 400px;
+    bottom: 280px;
+  }
+  .r3{
+    bottom: 290px;
+  }
+  .rid3{
+    bottom: 170px;
+  }
+  .goke{
+    bottom: 220px;
+  }
+  .foot{
+    position: relative;
+    right: 210px;
+  }
+  .c{
+    width: 420px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .navbar{
+    overflow: hidden;
+  }
+  .circle1{
+    width: 200px;
+  }
+  .circle2{
+    width: 200px;
+  }
+  .div1{
+    margin-top: 75px;
+    /* width: 768px; */
+    height: 65vh;
+  }
+  .navbar{
+    width: 100%;
+  }
+  .navbar-toggler{
+    position: relative;
+    right: 20px;
+  }
+  .navbar-nav{
+    border: none;
+    overflow: hidden;
+    justify-content: left;
+    align-items: left;
+    display: block;
+  }
+  .men{
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .allinfo{
+    list-style-type: none;
+    position: relative;
+    top: 70px;
+    color: black;
+    right: 8px;
+  }
+  .allinfo-id{
+    border: 0.5px solid #707070;
+    background: #F7F7FA 0% 0% no-repeat padding-box;
+    background-color: white;
+    padding: 15px 0px;
+    position: relative;
+    bottom: 42px; 
+  }
+  .map1{
+    position: relative;
+    left: 30px;
+  }
+  .map2{
+    position: relative;
+    left: 30px;
+  }
+  .ngn{
+    position: relative;
+    left: 30px;
+  }
+  .navlogin{
+    border: none;
+  }
+  .conts{
+    width: 767px;
+    display: block;  
+    padding-left: 180px; 
+    }
+    .learnmorebtn{
+      width: 250px;
+      position: relative;
+      right: 100px;
+    }
+  .gyr{
+    margin-top: 80px;
+  }
+  .gyrate1img{
+    width: 250px;
+    position: absolute;
+    top: 133rem;
+  }
+  .depo{
+    padding-top: 40px;
+    position: relative;
+    left: 50px;
+  }
+  .depoimg{
+    width: 240px;
+    position: absolute;
+    right: 490px;
+    top: 150rem;
+  }
+  .gyrate3{
+    padding-top: 70px;
+  }
+  .buyimg{
+    width: 250px;
+    position: absolute;
+    top: 169rem;
+    left: 510px;
+  }
+  .reva{
+    width: 700px;
+  }
+  .k1{
+    width: 650px;
+    position: relative;
+    bottom: 280px;
+    left: 10px;
+  }
+  .r1{
+    bottom: 320px;
+  }
+  .rid1{
+    width: 100px;
+    position: relative;
+    bottom: 60px;
+  }
+  .ireti{
+    position: relative;
+    left: 85px;
+    bottom: 140px;
+    font-weight: bold;
+  }
+
+  .revb{
+    width: 700px;
+  }
+  .k2{
+    width: 650px;
+    position: relative;
+    bottom: 350px;
+    left: 10px;
+  }
+  .r2{
+    bottom: 380px;
+  }
+  .rid2{
+    width: 100px;
+    bottom: 100px;
+  }
+  .bayo{
+    position: relative;
+    left: 85px;
+    bottom: 180px;
+  }
+  .revc{
+    width: 700px;
+  }
+  .k3{
+    width: 650px;
+    position: relative;
+    bottom: 370px;
+    left: 10px;
+  }
+  .r3{
+    bottom: 400px;
+  }
+  .rid3{
+    width: 100px;
+    bottom: 160px;
+  }
+  .goke{
+    position: relative;
+    left: 90px;
+  }
+  .foot{
+    position: relative;
+    right: 350px;
+  }
+  .c{
+    width: 700px
+  }
+}
+
+@media screen and (min-width:992px) {
+  .navbar-nav{
+    display: contents;
+  }
+  .navlogin{
+    border: none;
+  }
+  .div1{
+    margin-top: 70px;
+    height: 100vh;
+    padding: 70px;
+  }
+  .circle1{
+    width: 370px;
+    height: 370px;
+  }
+  .circle2{
+    width: 350px;
+    height: 350px;
+  }
+  .btn1{
+    width: 200px;
+    padding: 10px;
+  }
+  .allinfo{
+    position: relative;
+    top: 192px;
+    color: black;
+    width: 212px;
+    right: 394px;
+    margin-bottom: 250px;
+    display: flex;
+    padding: 10px
+  }
+  .men{
+    position: relative;
+    right: 62px;
+  }
+  .conts{
+    display: flex;
+    /* width: 992px; */
+    justify-content: center;
+    position: relative;
+    right: 50PX;
+    margin: 10px;
+  }
+  .learnmorebtn{
+    position: relative;
+    left: 5px;
+  }
+  .ease{
+    width:  320px;
+  }
+  .financial{
+    width: 320px;
+  }
+  .investment{
+    width: 320px;
+  }
+  .ease img{
+    width: 150px;
+  }
+  .financial img{
+    width: 150px;
+  }
+  .investment img{
+    width: 150px;
+  }
+  .buynsell{
+    margin-top: 80px;
+  }
+  .steps{
+    padding: 5px;
+  }
+  .gyrate1img{
+    width: 300px;
+    padding-top: 10px;
+    position: absolute;
+    right: 80px;
+    top: 130rem;
+  }
+  .gyrate1{
+    position: relative;
+    bottom: 40px;
+  }
+  .depo{
+    padding-top: 80px;
+    padding-left: 60px;
+  }
+  .depoimg{
+    position: absolute;
+    right: 600px;
+    top: 150rem;
+    width: 300px;
+  }
+  .gyrate3{
+    padding-top: 100px;
+  }
+  .buyimg{
+    width: 300px;
+    position: absolute;
+    left: 640px;
+    top: 170rem;  
+  }
+  .reva{
+    width: 810px;
+  }
+  .k1{
+    left: 60px;
+  }
+  .revb{
+    width: 810px;
+  }
+  .k2{
+    left: 50px;
+  }
+  .revc{
+    width: 810px;
+  }
+  .k3{
+    left: 70px;
+  }
+  .foot{
+    position: relative;
+    right: 410px;
+  }
+  .c{
+    width: 950px;
+    position: relative;
+    right: 60px;
+  }
+ .buyandsell{
+  width: 400px;
+  top: 100px;
+ } 
+ .form1{
+  width: 300px;
+ }
+ .form2{
+  width: 300px;
+ }
+ .form3{
+  width: 300px;
+ }
+ .sell{
+  width: 400px;
+  top: 100px;
+ } 
+ .form1{
+  width: 300px;
+ }
+ .form2{
+  width: 300px;
+ }
+ .form3{
+  width: 300px;
+ }
+ .ysf{
+  width: 400px;
+  top: 100px;
+ }
+ .login{
+  width: 400px;
+  top: 100px;
+ }
+ .user{
+  width: 300px;
+ }
+ .pass{
+  width: 300px;
+ }
+ .forgot{
+  position: relative;
+  left: 250px;
+ }
+ .individual{
+  width: 400px;
+  height: 480px;
+  top: 100px;
+  left: 8px;
+  line-height: 20px;
+ }
+ .form4{
+  width: 300px;
+ }
+ .form5{
+  width: 300px;
+ }
+ .form6{
+  width: 300px;
+ }
+ .form7{
+  width: 300px;
+ }
+ .form8{
+  width: 300px;
+ }
+ .business{
+  width: 400px;
+  height: 480px;
+  top: 100px;
+  left: 8px;
+  line-height: 20px;
+ }
+}
+
+@media screen and (min-width: 1200px) {
+  .allinfo{
+    padding: 20px;
+    padding-top: 104px;
+    width: 1200px;
+    right: 70px;
+  }
+  .men{
+    right: 50px;
+  }
+  .conts{
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    padding-left: 350px;
+  }
+  .learnmorebtn{
+    width: 350px;
+    padding: 10px;
+  }
+  .ease{
+    width: 400px;
+  }
+  .financial{
+    width: 400px;
+  }
+  .investment{
+    width: 400px;
+  }
+  .gyrate1img{
+    position: absolute;
+    top: 132rem;
+  }
+  .depoimg{
+    position: absolute;
+    right: 800px;
+    top: 148rem;
+  }
+  .buyimg{
+    position: absolute;
+    left: 50rem;
+    top: 167rem;
+  }
+  .reva{
+    width: 1000px;
+  }
+  .k1{
+    width: 900px;
+    bottom: 350px;
+  }
+  .r1{
+    bottom: 400px;
+  }
+  .revb{
+    width: 1000px;
+  }
+  .k2{
+    width: 900px;
+    bottom: 400px;
+  }
+  .r2{
+    bottom: 420px;
+  }
+  .revc{
+    width: 1000px;
+  }
+  .k3{
+    width: 900px;
+    bottom: 450px;
+  }
+  .r3{
+    bottom: 500px;
+  }
+  .foot{
+    position: relative;
+    right: 500px;
+  }
+  .c{
+    width: 1100px;
+    right: 30px;
+  }
+  .buyandsell{
+    width: 600px;
+    height: 500px;
+  }
+  .sell{
+    width: 600px;
+    height: 500px;
+  }
+  .form1{
+    width: 500px;
+  }
+  .form2{
+    width: 500px;
+  }
+  .form3{
+    width: 500px;
+  }
+  .ysf{
+    width: 600px;
+    height: 500px;
+  }
+  .login{
+    width: 600px;
+    height: 500px;
+    line-height: 30px;
+  }
+  .user{
+    width: 450px;
+  }
+  .pass{
+    width: 450px;
+  }
+  .forgot{
+    position: relative;
+    left: 400px;
+  }
+  .logc{
+    position: relative;
+    top: 40px;
+  }
+  .individual{
+    width: 600px;
+    height: 500px;
+  }
+  .business{
+    width: 600px;
+    height: 500px;
+  }
+  .indi1{
+    width: 150px;
+  }
+  .indi2{
+    width: 150px;
+  }
+  .form4{
+    width: 500px;
+  }
+  .form5{
+    width: 500px;
+  }
+  .form6{
+    width: 500px;
+  }
+  .form7{
+    width: 500px;
+  }
+  .form8{
+    width: 500px;
+  }
+  .bus1{
+    width: 150px;
+  }
+  .bus2{
+    width: 150px;
+  }
+}
